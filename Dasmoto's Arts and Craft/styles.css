@@ -1,0 +1,46 @@
+html {
+    display: block;
+}
+
+header {
+    position: relative;
+    top: 40px;
+}
+
+main {
+    position: relative;
+    top: 30px;
+}
+
+h1, h2, p {
+    font-family: 'Helvetica';
+}
+
+h1 {
+    background-image: url(images/pattern.jpeg);
+    font-size: 100px;
+    color: khaki;
+    text-align: center;
+    width: 100%;
+}
+
+h2 {
+    font-size: 32px;
+    color: white;   
+}
+
+strong {
+    color: blue;
+}
+
+.mediumspringgreen {
+    background-color: mediumspringgreen;
+}
+
+.lightcoral {
+    background-color: lightcoral;
+}
+
+.skyblue {
+    background-color: skyblue;
+}
