@@ -85,21 +85,25 @@ ul {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
+    width: 250px;
+    height: 200px;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
 }
 
 .profile img {
-	margin: 0 auto;
-	width: 100px;
-	height: 100px;
+    margin: 0 auto;
+	width: 5em;
+	height: 5em;
 	border-radius: 50%;
 	border: 1px solid black;
 	box-shadow: 10px 5px 5px whitesmoke;
 }
 
-.profile {
-	display: flex;
-	flex-direction: column;
-}
 
 @media (max-width: 500px) {
     ul, .navbar {
